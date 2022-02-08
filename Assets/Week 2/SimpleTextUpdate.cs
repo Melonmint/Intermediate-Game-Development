@@ -14,7 +14,6 @@ public class SimpleTextUpdate : MonoBehaviour
     void Start()
     {
         text.text = newText;
-        
     }
 
     // Update is called once per frame
