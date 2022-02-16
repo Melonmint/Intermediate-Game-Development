@@ -23,7 +23,7 @@ public class Movement : MonoBehaviour
             transform.Translate((Vector2.left * Time.deltaTime) * speed);
         }
         if (Input.GetKey(KeyCode.RightArrow))
-        {
+        { 
             transform.Translate((Vector2.right * Time.deltaTime) * speed);
         }
     }
